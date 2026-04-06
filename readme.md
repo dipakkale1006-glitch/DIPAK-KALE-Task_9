@@ -1,54 +1,86 @@
-# Laundry Web App - Responsive Page with Hover Effect
+# Laundry Web Page - Transform Practice
 
-# Description
-This project is a responsive laundry web application page built using HTML and CSS. It includes a responsive Navbar and a Hero Section with text and image. A smooth hover effect is applied to the call-to-action button to make the UI more interactive and visually appealing.
+## About this assignment
 
-# Features
-- Responsive Navbar (Desktop, Tablet, Mobile)
-- Hero section with text and washing machine image
-- Smooth button hover effect (scale + tilt)
-- Clean and modern UI design
-- Fully mobile-friendly layout
-- Flexbox for layout management
-- Media Queries for responsiveness
+In this task I created a laundry web page using HTML and CSS.
 
-# Hover Effect
-- Button increases in size on hover
-- Button tilts slightly for a dynamic look
-- Smooth animation using CSS transition
+The main goal of this assignment was to practice CSS transform properties and hover effects.
 
-# Responsive Behavior
-- Desktop:
-  - Navigation links visible in navbar
-  - Hero section in row (text left, image right)
+I used one button and applied multiple transform effects on hover.
 
-- Tablet:
-  - Adjusted spacing and font sizes
-  - Layout slightly compressed
+---
 
-- Mobile:
-  - Navigation links hidden
-  - Hero section stacked (text top, image bottom)
-  - Center aligned content
+## What I did
 
-# Technologies Used
-- HTML5
-- CSS3 (Flexbox, Media Queries, Transform, Transition)
+- Created navbar with logo, menu and username
+- Created hero section with text and image
+- Added hover effect on button
+- Used different transform properties:
+  - scale
+  - rotate
+  - skew
+  - translate
 
-# Files
-- index.html
-- style.css
+---
 
-# How to Run
-1. Download or clone the project
-2. Keep both files in the same folder
-3. Open `index.html` in any web browser
+## Transform learning
 
-# Learning Outcome
-- Understanding responsive design
-- Using Flexbox for layouts
-- Applying CSS hover effects (transform, scale, rotate)
-- Working with CSS transitions and media queries
+First I used:
 
-# Author
-Your Name: Dipak Kale
+scale()
+
+It increased the button size.
+
+Then I added:
+
+rotate()
+
+It tilted the button.
+
+After that I tested:
+
+skew()
+
+It changed the shape slightly.
+
+Finally I added:
+
+translate()
+
+It moved the button upward.
+
+I combined all transforms together on hover.
+
+---
+
+## What I learned
+
+- How transform works in CSS
+- How multiple transforms can be combined
+- How transition makes animation smooth
+- How small values give better results
+
+---
+
+## Challenges
+
+At first the button moved too much.
+
+When skew value was high, text looked broken.
+
+I reduced values and tested again.
+
+After testing different values, the animation looked better.
+
+---
+
+## Files
+
+index.html  
+style.css  
+
+---
+
+## Author
+
+Dipak Kale
