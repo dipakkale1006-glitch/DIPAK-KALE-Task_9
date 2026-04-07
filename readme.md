@@ -1,86 +1,49 @@
-# Laundry Web Page - Transform Practice
 
-## About this assignment
+# Laundry Page Hover Task
 
-In this task I created a laundry web page using HTML and CSS.
+# About this task
 
-The main goal of this assignment was to practice CSS transform properties and hover effects.
+In this assignment I made a simple laundry web page.
+The main goal was to practice CSS transform and hover effects.
 
-I used one button and applied multiple transform effects on hover.
+I created one button and applied transform on hover.
 
----
+# What I built
 
-## What I did
+- Navbar with logo and menu
+- Hero section with text and image
+- One button with hover effect
 
-- Created navbar with logo, menu and username
-- Created hero section with text and image
-- Added hover effect on button
-- Used different transform properties:
-  - scale
-  - rotate
-  - skew
-  - translate
+# Transform I used
 
----
+I used these transforms:
 
-## Transform learning
+scale() → increases button size  
+rotate() → tilts the button  
+skew() → changes the shape slightly  
+translateY() → moves button upward  
 
-First I used:
+I combined all transforms together on hover
+# What I learned
 
-scale()
+I learned that:
 
-It increased the button size.
+scale(1.1) makes the button bigger  
+rotate(-5deg) tilts the button  
+translateY(-4px) moves it upward  
+transition makes the animation smooth  
 
-Then I added:
-
-rotate()
-
-It tilted the button.
-
-After that I tested:
-
-skew()
-
-It changed the shape slightly.
-
-Finally I added:
-
-translate()
-
-It moved the button upward.
-
-I combined all transforms together on hover.
-
----
-
-## What I learned
-
-- How transform works in CSS
-- How multiple transforms can be combined
-- How transition makes animation smooth
-- How small values give better results
-
----
-
-## Challenges
+# Problem I faced
 
 At first the button moved too much.
+I reduced the values and tested again
+until it looked better.
 
-When skew value was high, text looked broken.
-
-I reduced values and tested again.
-
-After testing different values, the animation looked better.
-
----
-
-## Files
+# Files
 
 index.html  
 style.css  
 
----
-
-## Author
+# Author
 
 Dipak Kale
