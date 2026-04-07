@@ -1,151 +1,145 @@
-/* Reset */
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
 
-body{
-    font-family: Arial, sans-serif;
-}
+/* Navbar styling */
 
-/*  NAVBAR */
+.navbar {
 
-.navbar{
+display: flex;
 
-    display:flex;
+justify-content: space-between;
 
-    justify-content:space-between;
-
-    align-items:center;
-
-    padding:15px 40px;
+padding: 15px;
 
 }
 
-/* logo style */
 
-.logo{
+/* logo text */
 
-    font-size:24px;
+.logo {
 
-    font-weight:bold;
+font-size: 22px;
 
-}
-
-/* nav links */
-
-.nav-links{
-
-    display:flex;
-
-    gap:25px;
-
-    list-style:none;
+font-weight: bold;
 
 }
 
-/* simple hover test */
 
-.nav-links li:hover{
+/* menu links */
 
-    transform: translateY(-2px);
+.nav-links {
+
+display: flex;
+
+gap: 20px;
+
+list-style: none;
 
 }
+
 
 /* username box */
 
-.user{
+.user {
 
-    background:#e0f0ff;
+background: lightblue;
 
-    padding:8px 15px;
+padding: 5px 10px;
 
-    border-radius:10px;
-
-}
-
-/* HERO  */
-
-.hero{
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:space-between;
-
-    padding:50px;
-
-}
-
-/* text area */
-
-.hero-text{
-
-    max-width:500px;
-
-}
-
-.hero-text h1{
-
-    font-size:40px;
-
-    margin-bottom:15px;
-
-}
-
-.hero-text span{
-
-    color:#1e90ff;
-
-}
-
-.hero-text p{
-
-    margin-bottom:20px;
-
-    color:gray;
-
-}
-
-/* BUTTON  */
-
-
-
-.main-btn{
-
-    padding:12px 25px;
-
-    background:#1e90ff;
-
-    color:white;
-
-    border:none;
-
-    border-radius:8px;
-
-    cursor:pointer;
-
-    transition:0.4s;
+border-radius: 5px;
 
 }
 
 
-.main-btn:hover{
+/* hero layout */
 
-    transform:
-        scale(1.15)     
-        rotate(-5deg)    
-        skew(-5deg)      
-        translateY(-5px); 
+.hero {
+
+display: flex;
+
+justify-content: space-between;
+
+padding: 40px;
 
 }
 
 
+/* hero text */
 
-.hero-img img{
+.hero-text {
 
-    width:350px;
+width: 450px;
+
+}
+
+
+.hero-text h1 {
+
+font-size: 36px;
+
+margin-bottom: 10px;
+
+}
+
+
+/* blue color word */
+
+.hero-text span {
+
+color: blue;
+
+}
+
+
+.hero-text p {
+
+margin-bottom: 15px;
+
+color: gray;
+
+}
+
+
+/* button styling */
+
+.main-btn {
+
+padding: 10px 20px;
+
+background: blue;
+
+color: white;
+
+border: none;
+
+cursor: pointer;
+
+/* transition makes movement smooth */
+
+transition: 0.3s;
+
+}
+
+
+/* hover transform practice */
+
+.main-btn:hover {
+
+transform:
+
+scale(1.1)       /* increase size */
+
+rotate(-5deg)    /* tilt */
+
+skew(-3deg)      /* shape change */
+
+translateY(-4px); /* move upward */
+
+}
+
+
+/* image size */
+
+.hero-img img {
+
+width: 300px;
 
 }
